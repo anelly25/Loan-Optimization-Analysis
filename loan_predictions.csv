@@ -1,0 +1,41 @@
+Scenario,LoanType,PredictedProfitability,AdjustedDefaultRisk,Method,InflationRate,GDPGrowthRate,UnemploymentRate
+Baseline,C&I,5.9417868699398095,1.0,Standard,2.5,2.0,4.0
+High Inflation,C&I,6.045061087525952,1.0,Standard,7.0,1.5,5.5
+Recession,C&I,6.078569246501355,1.0,Standard,3.5,-1.0,6.5
+Boom Economy,C&I,5.953362873439879,1.0,Standard,1.5,4.0,3.0
+Stagflation,C&I,6.0639031904359335,1.0,Standard,8.0,-2.0,7.0
+Baseline,CRE,4.440197753634854,0.0,Standard,2.5,2.0,4.0
+High Inflation,CRE,4.593651187552455,0.0,Standard,7.0,1.5,5.5
+Recession,CRE,4.720704142499001,0.0,Standard,3.5,-1.0,6.5
+Boom Economy,CRE,4.468092840920748,0.0,Standard,1.5,4.0,3.0
+Stagflation,CRE,4.721534282180198,0.0,Standard,8.0,-2.0,7.0
+Baseline,Mortgage,5.65100965403823,1.0,Standard,2.5,2.0,4.0
+High Inflation,Mortgage,4.712967504503967,1.0,Standard,7.0,1.5,5.5
+Recession,Mortgage,4.848929450312507,1.0,Standard,3.5,-1.0,6.5
+Boom Economy,Mortgage,5.679290062188797,1.0,Standard,1.5,4.0,3.0
+Stagflation,Mortgage,4.820883030461725,1.0,Standard,8.0,-2.0,7.0
+Baseline,Construction,5.453939948091821,0.0,Standard,2.5,2.0,4.0
+High Inflation,Construction,5.021979214985784,0.0,Standard,7.0,1.5,5.5
+Recession,Construction,5.0162356070297,0.0,Standard,3.5,-1.0,6.5
+Boom Economy,Construction,5.453939948091821,0.0,Standard,1.5,4.0,3.0
+Stagflation,Construction,5.009022832728266,0.0,Standard,8.0,-2.0,7.0
+Baseline,C&I,,0.5884692668914795,Optimized XGBoost,2.5,2.0,4.0
+High Inflation,C&I,,0.5884692668914795,Optimized XGBoost,7.0,1.5,5.5
+Recession,C&I,,0.5821639895439148,Optimized XGBoost,3.5,-1.0,6.5
+Boom Economy,C&I,,0.5884692668914795,Optimized XGBoost,1.5,4.0,3.0
+Stagflation,C&I,,0.5821639895439148,Optimized XGBoost,8.0,-2.0,7.0
+Baseline,CRE,,0.48100003600120544,Optimized XGBoost,2.5,2.0,4.0
+High Inflation,CRE,,0.3489024341106415,Optimized XGBoost,7.0,1.5,5.5
+Recession,CRE,,0.5185584425926208,Optimized XGBoost,3.5,-1.0,6.5
+Boom Economy,CRE,,0.48100003600120544,Optimized XGBoost,1.5,4.0,3.0
+Stagflation,CRE,,0.5185584425926208,Optimized XGBoost,8.0,-2.0,7.0
+Baseline,Mortgage,,0.784502387046814,Optimized XGBoost,2.5,2.0,4.0
+High Inflation,Mortgage,,0.8568428754806519,Optimized XGBoost,7.0,1.5,5.5
+Recession,Mortgage,,0.7794280052185059,Optimized XGBoost,3.5,-1.0,6.5
+Boom Economy,Mortgage,,0.784502387046814,Optimized XGBoost,1.5,4.0,3.0
+Stagflation,Mortgage,,0.6750094294548035,Optimized XGBoost,8.0,-2.0,7.0
+Baseline,Construction,,0.5641595721244812,Optimized XGBoost,2.5,2.0,4.0
+High Inflation,Construction,,0.5515303015708923,Optimized XGBoost,7.0,1.5,5.5
+Recession,Construction,,0.5537639260292053,Optimized XGBoost,3.5,-1.0,6.5
+Boom Economy,Construction,,0.5641595721244812,Optimized XGBoost,1.5,4.0,3.0
+Stagflation,Construction,,0.5537639260292053,Optimized XGBoost,8.0,-2.0,7.0
