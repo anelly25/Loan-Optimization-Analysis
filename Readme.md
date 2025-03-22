@@ -97,16 +97,17 @@ A full schema with table definitions is in `databaseSchema.sql`.
 
 ---
 
-## 📷 Power BI Report
+### 🔎 Power BI Dashboard Overview
 
-The full interactive dashboard is included in:
+#### Page 1 – Loan Model Predictions by Scenario
+![Page 1 – Predictions](images/page1_model_output.png)
 
-📁 `PowerBI/Loan_Optimization_Report.pbix`
+#### Page 2 – Macro Trends & Correlations
+![Page 2 – Macro Trends](images/page2_macro_trends.png)
 
-> ⚠️ To view this file, download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).  
-If sharing online, consider publishing via Power BI Service and adding a link here.
+#### Page 3 – Suggested Optimal Loan Mix
+![Page 3 – Optimal Mix](images/page3_optimal_mix.png)
 
----
 
 ## ✅ What I'd Improve Next
 
